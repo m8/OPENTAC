@@ -1,6 +1,6 @@
 # Open TAC
 
-**Version 1.0.3**
+**Version 1.0.4**
 
 This project is inspired by the project "inFORM" made by MIT Media Lab and we aim to make a small version with an appropriate price.
 
@@ -44,6 +44,8 @@ After that models be like that.
 
 <img src="https://user-images.githubusercontent.com/19881231/38439678-3630071e-39e7-11e8-8590-b550e2a29c3c.jpg" width="175">
 
+
+Put the model3 (in the folder) top of the rod.
 
 ### Installing the Cover
 
