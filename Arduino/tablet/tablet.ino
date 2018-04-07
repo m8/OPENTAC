@@ -1,5 +1,14 @@
+/*-----------------------------------------------*
+ * Exapmle Sketch for OPENTAC from Musa Sadık    *                                          
+ * Unal                                          *
+ * 15.03.2018                                    * 
+ *-----------------------------------------------*/
+
+
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
+#include <SoftwareSerial.h>
+
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 Adafruit_PWMServoDriver pwm2 = Adafruit_PWMServoDriver(0x42);
@@ -9,7 +18,10 @@ Adafruit_PWMServoDriver pwm4 = Adafruit_PWMServoDriver(0x48);
 #define SERVOMIN  150 
 #define SERVOMAX  600 
 
-#include <SoftwareSerial.h>
+
+
+char KOMUTLAR [5][17] = {"","","",""};
+
 
 SoftwareSerial bt(3, 4);
 char mod;
