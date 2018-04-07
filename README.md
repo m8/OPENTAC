@@ -57,8 +57,7 @@ After mounting each servo motor, let's put in the system. You should watch out t
 
 ## Circuit Designs & Schematics
 
-The current circuit so basic and so easy to control the sytem. We use [**PCA9685**](https://www.adafruit.com/product/815) from Adafruit.
-You should adress the boards before wiring. Wiring can be like:
+The current circuit so basic and so easy to control the sytem. We use [**PCA9685**](https://www.adafruit.com/product/815) from Adafruit for controlling servo motors. You should adress the boards before wiring. Adressing can be like:
 
 - [x] 0x40
 - [x] 0x41
@@ -69,8 +68,16 @@ You should adress the boards before wiring. Wiring can be like:
 ![cizimdevre](https://user-images.githubusercontent.com/19881231/38440563-82fbccce-39ea-11e8-8d62-82ee6ca1d86f.JPG)
 
 In the current system we use Arduino Nano that use AtMega328 as microcontroller. But it can be insufficient for memory. So we can
-use Atmega2560 as an alternative.
+use Atmega2560 as an alternative. We designed a PCB that we can control the system gerber files included in the project detail.
 
+- [ ] Tested
+
+## Software Part
+You can control the system like
+```c++
+SET_SERVO(0000000011111111222222223333333344444444555555556666666677777777);
+GO();
+```
 ## Built With
 
 * [Arduino](https://www.arduino.cc/) - For Controlling Circuit
@@ -85,6 +92,7 @@ use Atmega2560 as an alternative.
 
 - [ ] Add Leap Motion Interaction
 - [ ] Eagle Schematic 
+- [ ] Preparing GUI
 
 ## Acknowledgments
 
