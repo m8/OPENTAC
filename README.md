@@ -29,7 +29,7 @@ What things you need to install the system
 
 ### 3D Printing
 First of all we should print all of the parts from 3D printer. In first try we used model from [*DesignCell*](https://www.thingiverse.com/thing:2038205). But we changed the model to sit appropriate the cover.
-You can find all 3D designs in the folder. We use [Craftware](https://craftunique.com/craftware/) as a slicer. After slice the models with these adjusments;
+You can find all 3D designs in the folder. I also add the 3D parts to [Thingiverse](https://www.thingiverse.com/musas/designs) that you can download easily.  We use [Craftware](https://craftunique.com/craftware/) as a slicer. After slice the models with these adjusments;
 
 - [x] 0.3mm **Layer Height** 
 - [x] 50 mm/s **Draw Speed**
