@@ -2,7 +2,7 @@
 
 **Version 1.0.4**
 
-This project is inspired by the project "inFORM" made by MIT Media Lab and we aim to make a small version with an appropriate price.
+This project is inspired by the project "inFORM" made by MIT Media Lab and we aim to make a small version with an appropriate price. We also aimed to use this project for visually impaired people in their educational lives.  
 
 
 ## Video
